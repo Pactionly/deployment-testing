@@ -1,0 +1,12 @@
+---
+- hosts: webservers
+  remote_user: root
+
+  tasks:
+  - name: copy static files
+    copy:
+      src: index.html
+      dest: /data/www/index.html
+      owner: nginx
+      group: nginx
+      mode: 0644
