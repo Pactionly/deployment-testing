@@ -9,6 +9,6 @@
       dest: /data/www/index.html
       owner: nginx
       group: nginx
-      mode: 0644
+      mode: 0775
     become: yes
     become_user: swacat
