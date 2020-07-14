@@ -7,7 +7,7 @@
     copy:
       src: index.html
       dest: /data/www/index.html
-      owner: nginx
+      owner: swacat
       group: nginx
       mode: 0775
     become: yes
